@@ -1,3 +1,4 @@
+//plays national anthem
 const int songLength = 23;
 const int buzzer = 4;
 void setup()
