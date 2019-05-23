@@ -16,14 +16,14 @@ void loop()
 {
   if (volts(A3) > ambient + 1)
   {
-    bePEbeBEPpEBEP();
+    beep();
   }
 }
 float volts(int adPin)
 {
   return float(analogRead(adPin)) * 5.0 / 1024.0;
 }
-void bePEbeBEPpEBEP()
+void beep()
 {
   tone(4, 250,250);
   delay(250);
